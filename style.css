@@ -1,0 +1,43 @@
+
+body{
+    background: #fcfbfd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+ 
+}
+#weatherApp {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    
+
+}
+#location-input{
+    padding: 8px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+#weather-data{
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+
+
